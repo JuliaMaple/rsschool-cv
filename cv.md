@@ -27,8 +27,8 @@
 ### Email: klyonova1997@gmail.com
 ### Contact number: +7982-466-34-55
 ### Discord: Maple(@JuliaMaple)
-### ![location](https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Aroom%3A "Geo Icon") Location: Moscow 
+### Location: Moscow 
 
 
 ## English level
-* ### Pre-intermediate
+### Pre-intermediate
