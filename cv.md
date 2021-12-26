@@ -1,6 +1,6 @@
 # Klenova Julia
 
-![Photo Klenova Julia](\rsschool-cv\me.jpg)
+![Photo Klenova Julia](/rsschool-cv/me.jpg)
 
 ## Education
 
