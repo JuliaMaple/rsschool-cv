@@ -1,21 +1,23 @@
 # Klenova Julia
 
+![Photo Klenova Julia](\rsschool-cv\me.jpg)
+
 ## Education
-***
+
 * ### RS School - JS/FE Pre-School/2022
 
 ## Skills
-***
+
 * ### HTML
 * ### CSS
 * ### Git
 * ### Postman
 
-## Experience: 
-***
+## Experience
+
 * ### VTB Bank software testing for two years
 
-## Contacts:
+## Contacts
 
 ### Email: klyonova1997@gmail.com
 ### Contact number: +7982-466-34-55
