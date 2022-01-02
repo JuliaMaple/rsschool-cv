@@ -1,6 +1,6 @@
 # Klenova Julia
 
-![Photo](/rsschool-cv/me.jpg "Klenova Julia")
+![My Photo](/rsschool-cv/me/me.jpg "Klenova Julia")
 
 
 ## Education
@@ -25,7 +25,6 @@
 ## Contacts
 
 ### Email: klyonova1997@gmail.com
-### Contact number: +7982-466-34-55
 ### Discord: Maple(@JuliaMaple)
 ### Location: Moscow 
 

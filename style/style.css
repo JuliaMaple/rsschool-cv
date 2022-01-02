@@ -1,0 +1,16 @@
+#header {
+    display: flex;
+    width: 100%;
+    background-color: #efca66;
+}
+
+#header a {
+    color: #909cac;
+    text-decoration: none;
+}
+
+
+#main {
+    background-color: #ecdab9;
+    color: #909cac;
+}
