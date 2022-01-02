@@ -2,10 +2,13 @@
     width: 100%;
     background-color: #cec3c8;
     font: 15px "Fira Sans", sans-serif;
+    border: 2px solid red;
 }
 
 .nav {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 #header a {
     color: #a47053;
@@ -14,6 +17,7 @@
 
 #header li {
     list-style-type: none;
+    border: 2px solid red;
 }
 
 #main {
