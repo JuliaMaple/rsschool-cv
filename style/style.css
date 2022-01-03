@@ -52,8 +52,7 @@
 }
 
 .aside img {
-    width: auto;
-    height: auto;
+    width: 100%;
 }
 
 .aside section {
