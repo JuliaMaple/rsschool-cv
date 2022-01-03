@@ -1,26 +1,81 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 #header {
     width: 100%;
     background-color: #cec3c8;
     font: 15px "Fira Sans", sans-serif;
-    border: 2px solid red;
 }
+
 
 .nav {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-}
-#header a {
-    color: #a47053;
-    text-decoration: none;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+    width: 100%;
 }
 
-#header li {
-    list-style-type: none;
-    border: 2px solid red;
+#header a {
+    color: #251c1c;
+    text-decoration: none;
+    display: block;
 }
+
+#header a:hover {
+    color: #a47053;
+}
+
+
 
 #main {
     background-color: #ecdab9;
-    color: #909cac;
+    color: #554853;
+    display: flex;
+    flex-direction: row;
+    font: 15px "Fira Sans", sans-serif;
+    width: 100%;
+}
+
+#main h1 {
+    color: #251c1c;
+    padding: 10px;
+
+}
+
+#main .aside {
+    width: 50%;
+}
+
+.aside img {
+    width:300px;
+}
+
+#main .about_me {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #cec3c8;
+    align-items: center;
+    color: #251c1c;
+    font: 15px "Fira Sans", sans-serif;
+    font-weight: bold;
+}
+
+footer a {
+    color: #251c1c;
+    text-decoration: none;
+    display: block;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
 }
