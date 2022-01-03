@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+#header {
+    width: 100%;
+    background-color: #cec3c8;
+    font: 15px "Fira Sans", sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+    width: 100%;
+}
+
+#header a {
+    color: #251c1c;
+    text-decoration: none;
+    display: block;
+}
+
+#header a:hover {
+    color: #a47053;
+}
+
+
+/* main content */
+#main {
+    background-color: #554853;
+    color: #d6d0d0;
+    display: flex;
+    flex-direction: row;
+    font: 17px "Fira Sans", sans-serif;
+    width: 100%;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+/* aside panel */
+#main .aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: #605c64;
+    letter-spacing: 1px;
+}
+
+.aside img {
+    width: auto;
+}
+
+.aside section {
+    width: 100%;
+}
+
+.aside h1 {
+    color: #251c1c;
+    padding: 20px;
+    text-align: center;
+}
+
+.aside h3 {
+    text-align: left;
+    padding-left: 10px;
+    line-height: 25px;
+    border-bottom: 2px solid #cec3c8;
+}
+
+.aside p {
+    padding: 10px;
+    margin: 10px 0;
+    line-height: 25px;
+    color: #cec3c8;
+}
+
+/* main content with my personality */
+
+#main article {
+    width: 100%;
+}
+
+article h1 {
+    color: #251c1c;
+    padding: 10px;
+    background-color: #a29a9d;
+}
+
+article .about_me p{
+    margin: 20px 30px;
+    line-height: 30px;
+}
+
+article .education ol {
+    margin: 10px;
+}
+
+article .education li {
+    margin: 10px 0;
+}
+
+article .skills ol {
+    margin: 10px;
+}
+
+article .skills li {
+    margin: 10px 0;
+}
+
+/* footer of my page */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #cec3c8;
+    align-items: center;
+    color: #251c1c;
+    font: 15px "Fira Sans", sans-serif;
+    font-weight: bold;
+}
+
+footer a {
+    color: #251c1c;
+    text-decoration: none;
+    display: block;
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+}
