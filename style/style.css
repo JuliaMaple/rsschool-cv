@@ -41,7 +41,7 @@
 }
 
 
-/* main content */
+/* main content with sections */
 #main {
     background-color: #554853;
     color: #d6d0d0;
@@ -53,7 +53,7 @@
     letter-spacing: 1px;
 }
 
-/* aside panel */
+/* aside panel with contact information*/
 #main .aside {
     display: flex;
     flex-direction: column;
