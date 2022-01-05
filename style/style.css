@@ -18,10 +18,22 @@
     width: 100%;
 }
 
+
 #header a {
     color: #251c1c;
     text-decoration: none;
     display: block;
+    align-items: center;
+    font: small-caps 20px "Georgia", serif;
+    align-self: center;
+}
+
+#header h2 {
+    color: #251c1c;
+    display: block;
+    align-items: center;
+    font: small-caps bold 30px "Georgia", serif;
+    align-self: center;
 }
 
 #header a:hover {
@@ -59,10 +71,11 @@
     width: 100%;
 }
 
-.aside h1 {
+.aside h2 {
     color: #251c1c;
     padding: 20px;
     text-align: center;
+    font: small-caps bold 30px "Georgia", serif;
 }
 
 .aside h3 {
@@ -86,14 +99,16 @@
     width: 100%;
 }
 
-article h1 {
+article h2 {
     color: #251c1c;
     padding: 10px;
     background-color: #a29a9d;
+    font: small-caps bold 30px "Georgia", serif;
 }
 
-article .about_me p{
-    margin: 20px 30px;
+
+article .about_me h4 {
+    padding: 20px;
     line-height: 30px;
 }
 
