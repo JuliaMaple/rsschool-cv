@@ -61,6 +61,7 @@
     width: 50%;
     background-color: #605c64;
     letter-spacing: 1px;
+    padding: 10px;
 }
 
 .aside img {
@@ -73,9 +74,11 @@
 
 .aside h2 {
     color: #251c1c;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font: small-caps bold 30px "Georgia", serif;
+    background-color: #a29a9d;
+    margin: 10px 0;
 }
 
 .aside h3 {
@@ -97,6 +100,7 @@
 
 #main article {
     width: 100%;
+    padding: 10px;
 }
 
 article h2 {
@@ -106,6 +110,9 @@ article h2 {
     font: small-caps bold 30px "Georgia", serif;
 }
 
+article h3 {
+    padding: 10px;
+}
 
 article .about_me h4 {
     padding: 20px;
