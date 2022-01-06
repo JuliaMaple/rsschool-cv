@@ -16,6 +16,54 @@
     flex-wrap: nowrap;
     padding: 20px 0;
     width: 100%;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 818px) {
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        width: 100%;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+    }
+}
+
+.nav h1 {
+    padding-left: 10px;
+    text-align: center;
+    color: #251c1c;
+    align-items: center;
+    font: small-caps bold 30px "Georgia", serif;
+    align-self: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    align-self: center;
+    flex-wrap: wrap ;
+}
+
+@media screen and (max-width: 818px) {
+    .nav ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+        align-self: center;
+        flex-wrap: wrap ;
+        align-items: center;
+    }
+}
+.nav li {
+    list-style-type: none;
 }
 
 
@@ -28,20 +76,13 @@
     align-self: center;
 }
 
-#header h2 {
-    color: #251c1c;
-    display: block;
-    align-items: center;
-    font: small-caps bold 30px "Georgia", serif;
-    align-self: center;
-}
 
 #header a:hover {
     color: #a47053;
 }
 
 
-/* main content with sections */
+/* main content */
 #main {
     background-color: #554853;
     color: #d6d0d0;
@@ -53,6 +94,14 @@
     letter-spacing: 1px;
 }
 
+
+@media screen and (max-width: 818px) {
+    #main {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
 /* aside panel with contact information*/
 #main .aside {
     display: flex;
@@ -62,6 +111,18 @@
     background-color: #605c64;
     letter-spacing: 1px;
     padding: 10px;
+}
+
+@media screen and (max-width: 818px) {
+    #main .aside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #605c64;
+        letter-spacing: 1px;
+        padding: 10px;
+    }
 }
 
 .aside img {
@@ -94,6 +155,7 @@
     margin: 10px 0;
     line-height: 25px;
     color: #cec3c8;
+    word-wrap: break-word;
 }
 
 /* main content with my personality */
@@ -101,39 +163,105 @@
 #main article {
     width: 100%;
     padding: 10px;
-}
-
-article h2 {
-    color: #251c1c;
-    padding: 10px;
-    background-color: #a29a9d;
-    font: small-caps bold 30px "Georgia", serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 article h3 {
+    color: #251c1c;
+    background-color: #a29a9d;
+    font: small-caps bold 25px "Georgia", serif;
+    text-align: left;
     padding: 10px;
+} 
+
+
+article h2 {
+    padding: 10px;
+    line-height: 40px;
 }
+
+
+
+article .about_me {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 
 article .about_me h4 {
     padding: 20px;
     line-height: 30px;
+    display: block;
+    font: 20px "Georgia", serif;
 }
 
-article .education ol {
-    margin: 10px;
+
+article .education {
+    display: flex;
+    flex-direction: column;
+}
+
+
+article .education ul {
+    padding: 10px 30px;
 }
 
 article .education li {
     margin: 10px 0;
+    word-wrap: break-word;
+    font: 20px "Georgia", serif;
 }
 
-article .skills ol {
-    margin: 10px;
+
+article .skills {
+    display: flex;
+    flex-direction: column;
+}
+
+article .skills ul {
+    padding: 10px 30px;
 }
 
 article .skills li {
     margin: 10px 0;
+    font: 20px "Georgia", serif;
 }
+
+article .example {
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll{
+    background: #d6d0d0;
+    border: 1px solid #a29a9d; 
+    overflow: auto; 
+    color: #251c1c;
+    font-size: 15px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 818px) {
+    article .scroll {
+        font-size: 5px;
+    }
+}
+
+.projects {
+    padding-top: 10px;
+}
+.projects a{
+    text-decoration: none;
+    font: 20px "Georgia", serif;
+    align-self: center;
+    color: #d6d0d0;
+}
+
+
+
 
 /* footer of my page */
 
