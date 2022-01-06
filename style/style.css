@@ -60,6 +60,7 @@
         align-self: center;
         flex-wrap: wrap ;
         align-items: center;
+        padding-right: 40px;
     }
 }
 .nav li {
