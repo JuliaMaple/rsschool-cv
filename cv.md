@@ -27,5 +27,5 @@ Love cats, coffee, books, and mountain trekking.
 * ["Школа тест-менеджеров v. 2.0" 2025](https://software-testing.ru/edu/schedule/45)
 * [RS School Course «JavaScript/Front-end. Stage 1» (in progress)](https://rs.school/courses/javascript)  
 ## Languages
-* English - А2 | Pre-Intermediate
+* English - А2 Pre-Intermediate
 * Russian - Native 
